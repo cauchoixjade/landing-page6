@@ -1,0 +1,222 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*--------------header-------------*/
+
+.logo {
+    width: 125px;
+}
+
+header {
+
+    width: 100%;
+    max-width: 100%;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(55, 163, 95, 0.747);
+    padding: 0px 0 3px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+}
+
+.imagep {
+    width: 100%;
+    max-width: 400%;
+    height: auto;
+}
+
+html {
+    color: rgb(236, 234, 234);
+    font-family: sans-serif;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.texte {
+    display: flex;
+    max-width: 1000px;
+    margin-left: 5rem;
+
+}
+
+.desciption {
+    margin-top: 0px;
+}
+
+#titre {
+    margin-top: 70px;
+}
+
+#imagejbl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+/* tablette */
+@media screen and (max-width: 800px) {
+
+    #image7, #image6, #image88,  #image89 {
+        display: none;
+    }
+
+    #produit1, #produit2, #produit3 {
+        max-height: 50%;
+        margin-bottom: 200px;
+
+    }
+
+    #imagejbl {
+        justify-content: flex-start;
+        margin-top: 300px;
+        max-height: 800px;
+        max-width: 450px;
+
+    }
+
+    .desciption {
+
+        max-width: 300px;
+        max-height: 200px;
+        font-size: 12px;
+
+    }
+
+    .texte {
+
+        margin-right: 200px;
+
+    }
+
+    #bas {
+
+        margin-left: -200px;
+
+    }
+
+    #titre {
+
+        font-size: 25px;
+
+    }
+
+
+}
+
+/* telephone l */
+@media screen and (max-width: 426px) {
+
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .texte {
+
+        margin-right: 50px;
+
+    }
+
+    .desciption {
+
+        max-width: 200px;
+        max-height: 200px;
+        font-size: 11px;
+
+    }
+
+    #imagejbl {
+
+        justify-content: flex-start;
+        margin-top: 90px;
+        max-height: 500px;
+        max-width: 200px;
+    }
+
+    footer {
+
+        padding-top: 500px;
+
+    }
+
+    #bas {
+
+        margin-left: -30px;
+
+    }
+
+    #produit1, #produit2, #produit3 {
+        max-height: 24%;
+        margin-bottom: 150px;
+    }
+}
+
+/* telephone s */
+
+@media screen and (max-width: 426px) {
+
+    footer {
+
+        padding-top: 750px;
+
+    }
+
+    #image5,
+    #image4 {
+        display: none;
+    }
+
+}
